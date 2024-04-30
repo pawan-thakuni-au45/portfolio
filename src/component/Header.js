@@ -6,13 +6,13 @@ const Header = () => {
    
   return (
     <div className='flex '>
-    
-    <div>
+   <div>
+    <div className='hover:bg-red-300' >
     <img  className="ml-[150px] md:ml-[710px] rounded-full mt-20 border border-green-800 w-20" alt="logo" src="https://lh3.googleusercontent.com/ogw/AF2bZyjzCeh-fJvxvKaCgkPUI6Sk16Kf6ds2r_fRRobFNRTBpg=s32-c-mo"></img>
    
     <ul className='m-2 shadow-lg '>
       <li className='font-bold p-3  my-0 text-xl'>Pawan Thakuni</li>
-      <li className=' my-0 font-serif '>Frontend Developer</li>
+      <li className=' my-0 font-serif '>Web Engineering | Frontend Developer</li>
       
     <div className='flex justify-center my-6 '>
      
@@ -32,6 +32,7 @@ const Header = () => {
       <img  className="h-7 w-7 ml-7" alt='lidin' src="https://cdn-icons-png.freepik.com/256/2354/2354127.png?uid=R145302671&semt=ais_hybrid"/></a>
       </div>
   </ul>
+  </div>
         <Project/>
 
         </div>

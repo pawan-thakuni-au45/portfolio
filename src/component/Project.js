@@ -7,7 +7,7 @@ const Project = () => {
      <div className=''>
      <h1 className='font-bold'>Projects </h1>
      <div className='flex  flex-col md:flex-row my-6 justify-between '>
-       <div className='flex flex-col ml-[8px] bg-green-200 shadow-2xl'>
+       <div className='flex flex-col ml-[8px] bg-green-200 shadow-3xl hover:bg-gray-200 hover:rounded-3xl'>
        
         <h1 className="font-bold">Netflix-GPT</h1>
 
@@ -30,7 +30,7 @@ const Project = () => {
           
          </div>
 
-         <div className='flex flex-col ml-[8px] shadow-2xl bg-green-200 md:shadow-2xl'>
+         <div className='flex flex-col ml-[8px] shadow-2xl bg-green-200 md:shadow-2xl hover:bg-gray-200 hover:rounded-3xl'>
        
          <h1 className="font-bold">YouTube-Clone</h1>
  
@@ -54,7 +54,7 @@ const Project = () => {
           
           </div>
 
-          <div className='flex flex-col ml-[8px] bg-green-200 shadow-2xl'>
+          <div className='flex flex-col ml-[8px] bg-green-200 shadow-2xl hover:bg-gray-200 hover:rounded-3xl'>
          <h1 className="font-bold">FoodGrab</h1>
  
         

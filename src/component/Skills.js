@@ -3,7 +3,7 @@ import React from 'react'
 
 const Skills = () => {
   return (
-    <div className='shadow-2xl'>
+    <div className='shadow-2xl hover:bg-red-200 hover:rounded-3xl'>
      <h className="font-bold text-red-800 "> Skills</h>
       <ul className='font-bold'>Languages:</ul>
       <ul>
