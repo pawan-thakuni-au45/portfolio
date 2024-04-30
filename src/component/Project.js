@@ -1,4 +1,5 @@
 import React from 'react'
+import Skills from './Skills'
 
 const Project = () => {
   return (
@@ -6,13 +7,13 @@ const Project = () => {
      <div className=''>
      <h1 className='font-bold'>Projects </h1>
      <div className='flex  flex-col md:flex-row my-6 justify-between '>
-       <div className='flex flex-col ml-[8px] shadow-2xl'>
+       <div className='flex flex-col ml-[8px] bg-green-200 shadow-2xl'>
        
         <h1 className="font-bold">Netflix-GPT</h1>
 
        
           <a className="text-blue-600  " href="https://fun-gpt.netlify.app/" target="_blank" rel="noopener noreferrer">Live Link</a>
-          <a className="text-blue-600  " href="https://github.com/pawan-thakuni-au45" target="_blank" rel="noopener noreferrer">GitHub Link</a>
+          <a className="text-blue-600  " href="https://github.com/pawan-thakuni-au45/netflixgpt" target="_blank" rel="noopener noreferrer">GitHub Link</a>
 
           <li className='text-red-900'>A netflix clone powered by GPT</li>
           <ul className='font-bold'>Features</ul>
@@ -29,13 +30,13 @@ const Project = () => {
           
          </div>
 
-         <div className='flex flex-col ml-[8px] shadow-2xl'>
+         <div className='flex flex-col ml-[8px] shadow-2xl bg-green-200 md:shadow-2xl'>
        
          <h1 className="font-bold">YouTube-Clone</h1>
  
         
-           <a className="text-blue-600" href="https://fun-gpt.netlify.app/" target="_blank" rel="noopener noreferrer">Live Link</a>
-          <a className="text-blue-600  " href="https://github.com/pawan-thakuni-au45" target="_blank" rel="noopener noreferrer">GitHub Link</a>
+           <a className="text-blue-600" href="https://justwatchnow.netlify.app/" target="_blank" rel="noopener noreferrer">Live Link</a>
+          <a className="text-blue-600  " href="https://github.com/pawan-thakuni-au45/youclone" target="_blank" rel="noopener noreferrer">GitHub Link</a>
 
           
            <ul className='font-bold'>Features</ul>
@@ -53,12 +54,12 @@ const Project = () => {
           
           </div>
 
-          <div className='flex flex-col ml-[8px] shadow-2xl'>
+          <div className='flex flex-col ml-[8px] bg-green-200 shadow-2xl'>
          <h1 className="font-bold">FoodGrab</h1>
  
         
          <a className='text-blue-600' href="https://fun-gpt.netlify.app/" target="_blank" rel="noopener noreferrer">Live Link</a>
-         <a className="text-blue-600  " href="https://github.com/pawan-thakuni-au45" target="_blank" rel="noopener noreferrer">GitHub Link</a>
+         <a className="text-blue-600  " href="https://github.com/pawan-thakuni-au45/foodorderapp" target="_blank" rel="noopener noreferrer">GitHub Link</a>
 
         
          <ul className='font-bold'>Features</ul>
@@ -76,8 +77,16 @@ const Project = () => {
         
          </div>
 
+        
+
+        
+         </div >
+         <div className='shadow-2xl bg-green-200'>
+         <Skills/>
+         </div>
+
+
           </div>
-    </div>
   )
 }
 

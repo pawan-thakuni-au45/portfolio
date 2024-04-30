@@ -1,20 +1,20 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
+
 import Project from './Project'
 
 const Header = () => {
    
   return (
+    <div className='flex '>
+    
     <div>
-    
-    
-    <img  className="ml-[160px] md:ml-[720px] rounded-full mt-20 border border-green-800 w-20" alt="logo" src="https://lh3.googleusercontent.com/ogw/AF2bZyjzCeh-fJvxvKaCgkPUI6Sk16Kf6ds2r_fRRobFNRTBpg=s32-c-mo"></img>
+    <img  className="ml-[150px] md:ml-[710px] rounded-full mt-20 border border-green-800 w-20" alt="logo" src="https://lh3.googleusercontent.com/ogw/AF2bZyjzCeh-fJvxvKaCgkPUI6Sk16Kf6ds2r_fRRobFNRTBpg=s32-c-mo"></img>
    
-    <ul className='m-2 shadow-lg'>
+    <ul className='m-2 shadow-lg '>
       <li className='font-bold p-3  my-0 text-xl'>Pawan Thakuni</li>
       <li className=' my-0 font-serif '>Frontend Developer</li>
       
-    <div className='flex justify-center my-6'>
+    <div className='flex justify-center my-6 '>
      
       <a href="https://www.linkedin.com/in/pawan-thakuni-390a2324b/?originalSubdomain=in" target="_blank" rel="noopener noreferrer"> 
       <img  className="h-7 w-7 mr-8" alt='lidin' src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/108px-LinkedIn_icon.svg.png"/></a>
@@ -34,7 +34,9 @@ const Header = () => {
   </ul>
         <Project/>
 
-   
+        </div>
+
+        
     </div>
   )
 }
